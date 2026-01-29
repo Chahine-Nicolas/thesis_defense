@@ -36,6 +36,25 @@ This work is intended to open perspectives on improving large-scale retrieval in
 </details>
 
 
+<details style="background-color: #f0f8ff; border: 1px solid #ccc; border-radius: 8px; padding: 15px; margin-bottom: 15px;">
+  <summary style="cursor: pointer; font-weight: bold; font-size: 1.1em; background-color: #007bff; color: white; padding: 8px 12px; border-radius: 5px; display: inline-block;">
+    Read Abstract
+  </summary>
+
+  <p style="margin-top: 10px; line-height: 1.5; color: #333;">
+    This thesis focuses on indexing and retrieval in 3D point clouds for large-scale place recognition, and more precisely on its acceleration. The objective is to search for point clouds similar to a query cloud in a database of georeferenced point clouds by establishing a representation of the point cloud and then searching for it in the database to obtain a list of nearest neighbors ranked by similarity according to distance metrics.
+  </p>
+</details>
+
+
+
+
+
+
+
+
+
+
 # Résumé
 
 <details>
@@ -55,13 +74,6 @@ Ce travail vise à ouvrir des perspectives sur l'amélioration de la reconnaissa
 </details>
 
 
-
-# Code
-[Github](https://github.com/Chahine-Nicolas/DSI-3D)
-
-# News
- - 2025-28-10 : Page online
-
 # References
 
 {% highlight bibtex %}
@@ -79,6 +91,7 @@ Ce travail vise à ouvrir des perspectives sur l'amélioration de la reconnaissa
 }
 {% endhighlight %}
 {% include text-expand.html %}
+
 
 
 
