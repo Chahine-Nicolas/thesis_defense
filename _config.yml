@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "DSI-3D: Differentiable Search Index for Point Cloud Retrieval"
+title: "Thesis defense"
 email: chahine-nicolas.zede@ign.fr
 description: >- # this means to ignore newlines until "baseurl:"
   Page of the article "DSI-3D: Differentiable Search Index for Point Cloud Retrieval"
   Thanks for reading!
-baseurl: "/DSI-3D_pages" # the subpath of your site, e.g. /blog
+baseurl: "/thesis_defense" # the subpath of your site, e.g. /blog
 url: "https://Chahine-Nicolas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "Chahine-Nicolas Zede"
 github_username: Chahine-Nicolas
@@ -51,6 +51,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
 
 
 
