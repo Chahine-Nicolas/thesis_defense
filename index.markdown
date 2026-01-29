@@ -20,13 +20,13 @@ header_img : /assets/header.png
 
 # Abstract
 
-<a href="https://example.com" style="text-decoration: none; color: inherit;">
-  <div style="border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-    <p>
-      This is my abstract paragraph styled like a card. It's fully clickable and looks like a mini-section or preview.
-    </p>
-  </div>
-</a>
+<details>
+  <summary>Click to read abstract</summary>
+  
+  This is the full abstract paragraph. It can be multiple sentences,
+  include **bold**, *italic*, or links like [GitHub](https://github.com).  
+  It will only be visible when the user clicks the summary above.
+</details>
 
 
 This thesis focuses on indexing and retrieval in 3D point clouds for large-scale place recognition, and more precisely on its acceleration. The objective is to search for point clouds similar to a query cloud in a database of georeferenced point clouds by establishing a representation of the point cloud and then searching for it in the database to obtain a list of nearest neighbors ranked by similarity according to distance metrics. 
@@ -66,6 +66,7 @@ This work is intended to open perspectives on improving large-scale retrieval in
 }
 {% endhighlight %}
 {% include text-expand.html %}
+
 
 
 
