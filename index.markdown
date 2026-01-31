@@ -69,9 +69,8 @@ Ce travail vise à ouvrir des perspectives sur l'amélioration de la reconnaissa
 
 
 # References
-
-{% endhighlight %}
 {% include text-expand.html %}
+
 
 
 
