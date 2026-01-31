@@ -43,6 +43,21 @@ This work is intended to open perspectives on improving large-scale retrieval in
 </details>
 
 
+<details class="abstract">
+  <summary>Abstract</summary>
+
+  <p>
+    This thesis focuses on indexing and retrieval in 3D point clouds for large-scale place recognition, and more precisely on its acceleration.
+  </p>
+
+  <p>
+    State-of-the-art methods in place recognition from point clouds primarily focus on building representations...
+  </p>
+</details>
+
+
+
+
 <details style="background-color: #f0f8ff; border: 1px solid #ccc; border-radius: 8px; padding: 15px; margin-bottom: 15px;">
   <summary style="cursor: pointer; font-weight: bold; font-size: 1.1em; background-color: #007bff; color: white; padding: 8px 12px; border-radius: 5px; display: inline-block;">
     Résumé
