@@ -5,9 +5,6 @@ layout: page
 header_img : /assets/header.png
 ---
 
-
-![]({{page.header_img | relative_url}})
-
 <br/>
 
 [Chahine-Nicolas Zede](https://www.umr-lastig.fr/Chahine-Nicolas-Zede/),
@@ -19,12 +16,6 @@ header_img : /assets/header.png
 # Attendance
 
 # Visio conference
-
-
-
-
-
-
 
 <details class="abstract">
   <summary>Abstract</summary>
@@ -38,18 +29,12 @@ header_img : /assets/header.png
   </p>
 </details>
 
-<summary>CLICK ME</summary>
+<details>
+  <summary>CLICK ME</summary>
+  <p>Hello</p>
+</details>
 
 
-
-
-
-
-
-
-
-# References
-{% include text-expand.html %}
 
 
 
