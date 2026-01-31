@@ -1,0 +1,46 @@
+details.abstract > summary {
+  list-style: none;           /* remove default triangle */
+  cursor: pointer;
+
+  display: inline-block;      /* makes it button-like */
+  padding: 10px 16px;
+  margin-bottom: 8px;
+
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  font-size: 1.05em;
+
+  border-radius: 999px;       /* pill button */
+  user-select: none;
+}
+
+/* Remove marker for Chrome / Safari */
+details.abstract > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Hover / focus states */
+details.abstract > summary:hover {
+  background-color: #0056b3;
+}
+
+details.abstract > summary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.35);
+}
+
+/* Space between button and content when open */
+details.abstract[open] > summary {
+  margin-bottom: 12px;
+}
+
+details.abstract > summary::after {
+  content: "▸";
+  margin-left: 10px;
+  transition: transform 0.2s ease;
+}
+
+details.abstract[open] > summary::after {
+  transform: rotate(90deg);
+}
