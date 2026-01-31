@@ -1,0 +1,35 @@
+details.abstract > summary {
+  all: unset;                 /* reset Minima + browser styles */
+  display: inline-flex;       /* reliable text rendering */
+  align-items: center;
+
+  cursor: pointer;
+  padding: 10px 16px;
+  margin-bottom: 8px;
+
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+  font-size: 1.05em;
+
+  border-radius: 999px;
+}
+
+/* Hide default marker everywhere */
+details.abstract > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Hover / focus */
+details.abstract > summary:hover {
+  background-color: #0056b3;
+}
+
+details.abstract > summary:focus-visible {
+  outline: 3px solid rgba(0, 123, 255, 0.4);
+}
+
+/* Spacing when open */
+details.abstract[open] > summary {
+  margin-bottom: 12px;
+}
